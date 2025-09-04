@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: b907e64134479704bba235ac93493780
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7799655602768338125
+    second: keran_0
+  - first:
+      213: 4032210645664221618
+    second: keran_1
+  - first:
+      213: -6578277394104479680
+    second: keran_2
+  - first:
+      213: 3852634071431994630
+    second: keran_3
+  - first:
+      213: 6621415586188729121
+    second: keran_4
+  - first:
+      213: 3891633102431422907
+    second: keran_5
+  - first:
+      213: -4992788389900560387
+    second: keran_6
+  - first:
+      213: 7293963456801033894
+    second: keran_7
+  - first:
+      213: 1699741896501771239
+    second: keran_8
+  - first:
+      213: 3279549715289714042
+    second: keran_9
+  - first:
+      213: 2267663679263035218
+    second: keran_10
+  - first:
+      213: -3422528905999821547
+    second: keran_11
+  - first:
+      213: 4475004200938423101
+    second: keran_12
+  - first:
+      213: -4799108234258386373
+    second: keran_13
+  - first:
+      213: -670594659588071158
+    second: keran_14
+  - first:
+      213: -9181966971596729026
+    second: keran_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: keran_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 110
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc54654271fd3c60800000000000000
+      internalID: 7799655602768338125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keran_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 164
+        width: 110
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b94d5af73a45f730800000000000000
+      internalID: 4032210645664221618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keran_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 164
+        width: 110
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0409b62309345b4a0800000000000000
+      internalID: -6578277394104479680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keran_3
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 164
+        width: 110
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d554d964e477530800000000000000
+      internalID: 3852634071431994630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keran_4
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 164
+        width: 110
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b9305d46ef3eb50800000000000000
+      internalID: 6621415586188729121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keran_5
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 164
+        width: 110
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9839a10bbd10630800000000000000
+      internalID: 3891633102431422907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keran_6
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 164
+        width: 110
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7584d896d06bab0800000000000000
+      internalID: -4992788389900560387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keran_7
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 164
+        width: 110
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae4e4f6e1d593560800000000000000
+      internalID: 7293963456801033894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keran_8
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 164
+        width: 110
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb36decf32b69710800000000000000
+      internalID: 1699741896501771239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keran_9
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 165
+        width: 110
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7da31b171d438d20800000000000000
+      internalID: 3279549715289714042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keran_10
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 164
+        width: 110
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f47880a1c587f10800000000000000
+      internalID: 2267663679263035218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keran_11
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 164
+        width: 110
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515df54e71cb080d0800000000000000
+      internalID: -3422528905999821547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keran_12
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 164
+        width: 110
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33c0557c986a1e30800000000000000
+      internalID: 4475004200938423101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 85e69b5615d625b4ab090d49d19966e5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      keran_0: 7799655602768338125
+      keran_1: 4032210645664221618
+      keran_10: 2267663679263035218
+      keran_11: -3422528905999821547
+      keran_12: 4475004200938423101
+      keran_2: -6578277394104479680
+      keran_3: 3852634071431994630
+      keran_4: 6621415586188729121
+      keran_5: 3891633102431422907
+      keran_6: -4992788389900560387
+      keran_7: 7293963456801033894
+      keran_8: 1699741896501771239
+      keran_9: 3279549715289714042
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

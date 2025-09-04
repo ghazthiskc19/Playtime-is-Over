@@ -1,0 +1,1638 @@
+fileFormatVersion: 2
+guid: ea94645e84f2b5d4eb1a7945b1a78c4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1541460809932580506
+    second: Tak berjudul105_Dipulihkan_20250902145659_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 340
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1755
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244005ff12bd3bb44aeb6f5f46cf0c90
+      internalID: -1216174405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1755
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5c2346ec6e817438e5e4530e24d086
+      internalID: -770451624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_2
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1755
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0395574241bc65468b93b7a82df2487
+      internalID: 1540852007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_3
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1755
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee67085db01cb8949828c7b813b656b5
+      internalID: 1915307649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_4
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1755
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad7bc3616ea8944682c07961771dff5
+      internalID: -1090152775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_5
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1755
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e48763678a89445a8832d91963a0fe
+      internalID: 451091819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_6
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 1755
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cafcdba70df8e41abefbb2747988b6
+      internalID: 46783772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_7
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 1755
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141d2a09b0eb32b48bf95931a9f0b2e0
+      internalID: 542748836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_8
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 1755
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1320cc8a4d9fd644d89c98e021f3982b
+      internalID: -1882808278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_9
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 1755
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3113b051d839e7a439153e3161fa4b22
+      internalID: -1964775621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_10
+      rect:
+        serializedVersion: 2
+        x: 3470
+        y: 1755
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b258edd4399de2408d8a5688d6b4701
+      internalID: 1260471240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2ef951a26100a41ac2f5a25a6575f3
+      internalID: 2080925867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_12
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1404
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d30ec4c671a39f4f92d48b8541ccc3d
+      internalID: 180179128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_13
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1404
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d8f3162507c0a49b9f8f9be17f4d90
+      internalID: 371694427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_14
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1404
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9989854155d05a8479c32eb937ed03bb
+      internalID: 1874429032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_15
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1404
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681e2ee3aa9571d4e8073eeaae2f0fb9
+      internalID: 403552312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_16
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1404
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c477a83aa54734ca5150dd04d3e9a3
+      internalID: 363307688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_17
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 1404
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fe53617bdbbe24ea43593e3b07d31b
+      internalID: 804689907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_18
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 1404
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c47062c0b9ec844887f85139292639b
+      internalID: 1895476197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_19
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 1404
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4817a3f5ea0394fa9f760a4c96e511
+      internalID: 230195366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_20
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 1404
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3530bfff18d61ec4bb7fe5a19fe9c24a
+      internalID: -1832116424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_21
+      rect:
+        serializedVersion: 2
+        x: 3470
+        y: 1404
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6002ca5cf4c9d3744ab975f87d433531
+      internalID: 1709465666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1053
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596ff27052b13b747aae2b2cc011a61b
+      internalID: 1158390187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_23
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1053
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc10c18cd1bfb2a4aa61df2cb083c467
+      internalID: 391385008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_24
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1053
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e29aed52a4c144285e669d589a75e5
+      internalID: -1697162433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_25
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1053
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a860872f3324545a8ee8dd355a3dd9
+      internalID: 834812549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_26
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1053
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcc493477834f14585af3a7c31d8bb1
+      internalID: 752112769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_27
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1053
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bcb41e43dc1014b9815525ff882e9d
+      internalID: -314618157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_28
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 1053
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c052c4c2044accd4384dafadbf72b5d8
+      internalID: 1223570584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_29
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 1053
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4757dcd9ec36854a835d414f4d41c5f
+      internalID: -1465037349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_30
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 1053
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bb39f83d16ba346b03ec6dea4396a7
+      internalID: 537983624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_31
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 1053
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5c49ba497f92040aefc3a1726c6d23
+      internalID: -870900515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_32
+      rect:
+        serializedVersion: 2
+        x: 3470
+        y: 1053
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe7e987ce40df545b338fb4aaa61309
+      internalID: -1995035139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 702
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0520fedd97efee54d9a5d46d55d3e05b
+      internalID: 575365885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_34
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 702
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2de3a2840357841a0b036f3d155c4a
+      internalID: -1774233736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_35
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 702
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df568f4288c87d4bbbfec092f4e81c2
+      internalID: 1225043194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_36
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 702
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce436d9f9f7a1c4a85d4c247f8cf19d
+      internalID: 1377481433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_37
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 702
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0f3d2db232280409771eb342a22039
+      internalID: -1261247489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_38
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 702
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5ba5f8aa14c584ab5359415771e9c0
+      internalID: -1214930875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_39
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 702
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec677b7358d21e4a8113bb0cbec46fa
+      internalID: 743137505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_40
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 702
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9874d15e712453746a423049116d9fb2
+      internalID: 1805145277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_41
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 702
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc42aa3bb7f4e6448f078fa1cff08dd
+      internalID: 1695212583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_42
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 702
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f3f051e84674d42b7603b2008c42fa
+      internalID: -1538515500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_43
+      rect:
+        serializedVersion: 2
+        x: 3470
+        y: 702
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb05ef804712604a95c608d3e004182
+      internalID: 466424450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81063b59f88cb74093a04b2520a6bd2
+      internalID: -586470190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_45
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 351
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e89ef97b8f1b146ad60f7a2d50cf48
+      internalID: 2119924903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_46
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 351
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6542193eeaff0e945836b91462875dae
+      internalID: 12869015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_47
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 351
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae77bf28daffa684d947a17fe522877f
+      internalID: 2065839320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_48
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 351
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f591aa251d98f74492156779c60cd33
+      internalID: -1431539082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_49
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 351
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d9f3287b7e8114993af8d56082c404
+      internalID: 686854292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_50
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 351
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dbb7a0e77cda64e9302bfe81ffc2a4
+      internalID: 1517299078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_51
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 351
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381cc21d8833b1242b9027aa6a3ad35c
+      internalID: -975655749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_52
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 351
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbd147b718568d4dace11f410dee45e
+      internalID: 745522086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_53
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 351
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e03983b69b2b24ebe9fe2f70f62d36
+      internalID: -207631532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_54
+      rect:
+        serializedVersion: 2
+        x: 3470
+        y: 351
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1119c5cdef39c44a5dfa982f820a31
+      internalID: 584994743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41c114fd62fdaf46b5b5cc397b2ef26
+      internalID: -1575801373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_56
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 0
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6942a920169ec408dfa99858d9ac7e
+      internalID: 585326894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_57
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 0
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a7772b2e29b2044966ef74acc5cb80
+      internalID: -200704179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_58
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1743cd76100e5a488c9626068151551
+      internalID: -972311734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_59
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 0
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069665ec31e2b294aa9e811bf2f782a9
+      internalID: 639274230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_60
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 0
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a0f71971964444a9ff915f73c5b7f4
+      internalID: 1006407944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_61
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 0
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cebb7d82228d234a8192de250fcc336
+      internalID: -1196745419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_62
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 0
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d625db058d3ae448a3f165a57344b5
+      internalID: 977659678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_63
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 0
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aef21bf123f63e43bd4e3adbff3d0ab
+      internalID: 1178319000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_64
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 0
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615cf9d81a295234198a8b970bb47d1a
+      internalID: 1654845322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tak berjudul105_Dipulihkan_20250902145659_65
+      rect:
+        serializedVersion: 2
+        x: 3470
+        y: 0
+        width: 347
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acd77157ff8cdc4d9c845866607a660
+      internalID: -1220735586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 74e9f86290435bc43b3d71a79cf45091
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tak berjudul105_Dipulihkan_20250902145659_0: -1216174405
+      Tak berjudul105_Dipulihkan_20250902145659_1: -770451624
+      Tak berjudul105_Dipulihkan_20250902145659_10: 1260471240
+      Tak berjudul105_Dipulihkan_20250902145659_11: 2080925867
+      Tak berjudul105_Dipulihkan_20250902145659_12: 180179128
+      Tak berjudul105_Dipulihkan_20250902145659_13: 371694427
+      Tak berjudul105_Dipulihkan_20250902145659_14: 1874429032
+      Tak berjudul105_Dipulihkan_20250902145659_15: 403552312
+      Tak berjudul105_Dipulihkan_20250902145659_16: 363307688
+      Tak berjudul105_Dipulihkan_20250902145659_17: 804689907
+      Tak berjudul105_Dipulihkan_20250902145659_18: 1895476197
+      Tak berjudul105_Dipulihkan_20250902145659_19: 230195366
+      Tak berjudul105_Dipulihkan_20250902145659_2: 1540852007
+      Tak berjudul105_Dipulihkan_20250902145659_20: -1832116424
+      Tak berjudul105_Dipulihkan_20250902145659_21: 1709465666
+      Tak berjudul105_Dipulihkan_20250902145659_22: 1158390187
+      Tak berjudul105_Dipulihkan_20250902145659_23: 391385008
+      Tak berjudul105_Dipulihkan_20250902145659_24: -1697162433
+      Tak berjudul105_Dipulihkan_20250902145659_25: 834812549
+      Tak berjudul105_Dipulihkan_20250902145659_26: 752112769
+      Tak berjudul105_Dipulihkan_20250902145659_27: -314618157
+      Tak berjudul105_Dipulihkan_20250902145659_28: 1223570584
+      Tak berjudul105_Dipulihkan_20250902145659_29: -1465037349
+      Tak berjudul105_Dipulihkan_20250902145659_3: 1915307649
+      Tak berjudul105_Dipulihkan_20250902145659_30: 537983624
+      Tak berjudul105_Dipulihkan_20250902145659_31: -870900515
+      Tak berjudul105_Dipulihkan_20250902145659_32: -1995035139
+      Tak berjudul105_Dipulihkan_20250902145659_33: 575365885
+      Tak berjudul105_Dipulihkan_20250902145659_34: -1774233736
+      Tak berjudul105_Dipulihkan_20250902145659_35: 1225043194
+      Tak berjudul105_Dipulihkan_20250902145659_36: 1377481433
+      Tak berjudul105_Dipulihkan_20250902145659_37: -1261247489
+      Tak berjudul105_Dipulihkan_20250902145659_38: -1214930875
+      Tak berjudul105_Dipulihkan_20250902145659_39: 743137505
+      Tak berjudul105_Dipulihkan_20250902145659_4: -1090152775
+      Tak berjudul105_Dipulihkan_20250902145659_40: 1805145277
+      Tak berjudul105_Dipulihkan_20250902145659_41: 1695212583
+      Tak berjudul105_Dipulihkan_20250902145659_42: -1538515500
+      Tak berjudul105_Dipulihkan_20250902145659_43: 466424450
+      Tak berjudul105_Dipulihkan_20250902145659_44: -586470190
+      Tak berjudul105_Dipulihkan_20250902145659_45: 2119924903
+      Tak berjudul105_Dipulihkan_20250902145659_46: 12869015
+      Tak berjudul105_Dipulihkan_20250902145659_47: 2065839320
+      Tak berjudul105_Dipulihkan_20250902145659_48: -1431539082
+      Tak berjudul105_Dipulihkan_20250902145659_49: 686854292
+      Tak berjudul105_Dipulihkan_20250902145659_5: 451091819
+      Tak berjudul105_Dipulihkan_20250902145659_50: 1517299078
+      Tak berjudul105_Dipulihkan_20250902145659_51: -975655749
+      Tak berjudul105_Dipulihkan_20250902145659_52: 745522086
+      Tak berjudul105_Dipulihkan_20250902145659_53: -207631532
+      Tak berjudul105_Dipulihkan_20250902145659_54: 584994743
+      Tak berjudul105_Dipulihkan_20250902145659_55: -1575801373
+      Tak berjudul105_Dipulihkan_20250902145659_56: 585326894
+      Tak berjudul105_Dipulihkan_20250902145659_57: -200704179
+      Tak berjudul105_Dipulihkan_20250902145659_58: -972311734
+      Tak berjudul105_Dipulihkan_20250902145659_59: 639274230
+      Tak berjudul105_Dipulihkan_20250902145659_6: 46783772
+      Tak berjudul105_Dipulihkan_20250902145659_60: 1006407944
+      Tak berjudul105_Dipulihkan_20250902145659_61: -1196745419
+      Tak berjudul105_Dipulihkan_20250902145659_62: 977659678
+      Tak berjudul105_Dipulihkan_20250902145659_63: 1178319000
+      Tak berjudul105_Dipulihkan_20250902145659_64: 1654845322
+      Tak berjudul105_Dipulihkan_20250902145659_65: -1220735586
+      Tak berjudul105_Dipulihkan_20250902145659_7: 542748836
+      Tak berjudul105_Dipulihkan_20250902145659_8: -1882808278
+      Tak berjudul105_Dipulihkan_20250902145659_9: -1964775621
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
