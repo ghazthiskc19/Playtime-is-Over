@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBeforeLeave: 15
-  movementSpeed: 6
+  movementSpeed: 3
   chaseTarget: {fileID: 0}
   _firstPosition: {x: 0, y: 0, z: 0}
   _isChasing: 0
@@ -143,9 +143,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -2081680515
-  m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingLayerID: 266562613
+  m_SortingLayer: 3
+  m_SortingOrder: 0
   m_Sprite: {fileID: 8619859479441469146, guid: b1587bf70779c3e4992c2f695962efe7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

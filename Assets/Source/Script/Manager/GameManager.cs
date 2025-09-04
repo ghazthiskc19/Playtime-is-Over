@@ -36,12 +36,18 @@ public class GameManager : MonoBehaviour
     }
     public void IncrementMessedUp()
     {
+        StartCoroutine(IncrementMessedUpCoroutine());
+    }
+    public IEnumerator IncrementMessedUpCoroutine()
+    {
         messedUpCount++;
         objectiveText.text = messedUpCount + " From " + totalObjective;
         if (messedUpCount >= totalObjective)
         {
+            yield return new WaitForSeconds(2f);
             EventManager.instance.WhenPlayerWin();
-            return;
+            EventManager.instance.WhenPausedGame(true);
+            yield return null;
         }
         if (messedUpCount % 2 == 1)
         {

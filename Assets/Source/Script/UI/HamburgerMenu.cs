@@ -8,7 +8,7 @@ public class HamburgerMenu : MonoBehaviour
     public GameObject hamMenuPanel;
     public CanvasGroup bgMenu;
     [SerializeField] private InputActionReference pauseAction;
-    void OnEnable() {
+    void Start() {
         pauseAction.action.performed += ctx => ToggleMenu();
     }
     void OnDisable() {

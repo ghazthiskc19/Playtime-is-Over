@@ -25,7 +25,6 @@ public class EventManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
     public void WhenObjectInteract()
     {
         OnObjectInteract?.Invoke();

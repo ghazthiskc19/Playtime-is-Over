@@ -62,6 +62,7 @@ public class HUDScript : MonoBehaviour
         {
             badEndingText.DOFade(1, 1);
             badEndingBtn.DOFade(1, 1).SetDelay(.5f);
+            EventManager.instance.WhenPausedGame(true);
         });
     }
     void TrueEnding()
@@ -73,6 +74,7 @@ public class HUDScript : MonoBehaviour
         {
             trueEndingText.DOFade(1, 1);
             trueEndingBtn.DOFade(1, 1).SetDelay(.5f);
+            EventManager.instance.WhenPausedGame(true);
         });
     }
 
