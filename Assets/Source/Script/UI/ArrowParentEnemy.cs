@@ -39,6 +39,7 @@ public class ArrowParentEnemy : MonoBehaviour
         if (parentEnemy == null)
         {
             arrow.SetActive(false);
+            watchOutText.enabled = false;
             return;
         }
 

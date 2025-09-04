@@ -36,6 +36,7 @@ public class EnemyMovement : MonoBehaviour
         chaseTarget = GameObject.FindGameObjectWithTag("Player").transform;
         chaseTimer = timeBeforeLeave;
         _isChasing = true;
+
         _isReturning = false;
         EventManager.instance.OnPausedGame += HandlePause;
     }
@@ -63,11 +64,13 @@ public class EnemyMovement : MonoBehaviour
         if (_isPaused) return;
         if (_isChasing)
         {
+            EventManager.instance.WhenChasingStateChanged(true);
             StartCoroutine(ChasePlayer());
             chaseTimer -= Time.deltaTime;
             if (chaseTimer <= 0)
             {
                 _isChasing = false;
+                EventManager.instance.WhenChasingStateChanged(false);
                 StartCoroutine(DelayBeforeReturn(2f));
             }
         }

@@ -2,11 +2,25 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.InputSystem;
 public class HamburgerMenu : MonoBehaviour
 {
     public GameObject hamMenuPanel;
     public CanvasGroup bgMenu;
+    [SerializeField] private InputActionReference pauseAction;
+    void OnEnable() {
+        pauseAction.action.performed += ctx => ToggleMenu();
+    }
+    void OnDisable() {
+        pauseAction.action.performed -= ctx => ToggleMenu();
+    }
 
+    private void ToggleMenu() {
+        if (!hamMenuPanel.activeSelf)
+            HamburgerAnimation();
+        else
+            HamburgerAnimationExit();
+    }
     public void HamburgerAnimation()
     {
         StartCoroutine(OnHamburgerClick());

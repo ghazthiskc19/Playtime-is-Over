@@ -12,6 +12,7 @@ public class EventManager : MonoBehaviour
     public event Action OnEnemyLeave;
     public event Action<bool, string> OnInteractAreaChanged;
     public static EventManager instance;
+    public event Action<bool> OnChasingStateChanged;
     void Awake()
     {
         if (instance == null)
@@ -57,5 +58,9 @@ public class EventManager : MonoBehaviour
     public void WhenPausedGame(bool status)
     {
         OnPausedGame?.Invoke(status);
+    }
+    public void WhenChasingStateChanged(bool isChasing)
+    {
+        OnChasingStateChanged?.Invoke(isChasing);
     }
 }

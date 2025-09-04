@@ -10,10 +10,12 @@ public class HUDScript : MonoBehaviour
     [Header("Bad Ending panel")]
     public GameObject badEndingPanel;
     public TMP_Text badEndingText;
+    public Image badEndingImage;
     public CanvasGroup badEndingBtn;
     [Header("True Ending panel")]
     public GameObject trueEndingPanel;
     public TMP_Text trueEndingText;
+    public Image trueEndingImage;
     public CanvasGroup trueEndingBtn;
     [Header("First Messed Up")]
     private Transform transformPlayer;

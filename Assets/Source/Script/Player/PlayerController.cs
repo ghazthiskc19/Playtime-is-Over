@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
         if (isPaused)
         {
-            _rb.linearVelocity = Vector2.zero; // langsung stop gerak
+            _rb.linearVelocity = Vector2.zero;
         }
     }
     private void Update()

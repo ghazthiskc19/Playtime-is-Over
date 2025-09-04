@@ -1,34 +1,38 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
-
+using DG.Tweening;
+using System.Collections;
+using Cinemachine;
 public class GameManager : MonoBehaviour
 {
-
     public static GameManager instance;
     public int messedUpCount;
     public int totalObjective = 5;
     public GameObject parentGameObject;
     public GameObject[] listSpawner;
     public TMP_Text objectiveText;
-    void Start()
-    {
-        EventManager.instance.OnObjectInteract += IncrementMessedUp;
-        EventManager.instance.OnSecondMessedUp += SpawnParent;
-        listSpawner = GameObject.FindGameObjectsWithTag("Spawner");
-        objectiveText.text = "0 From " + totalObjective;
-    }
-    void OnDisable()
-    {
-        EventManager.instance.OnObjectInteract -= IncrementMessedUp;
-        EventManager.instance.OnSecondMessedUp -= SpawnParent;
-    }
+    public CanvasGroup objectiveGameObject;
+    public CanvasGroup HUDGameObject;
+    public CinemachineVirtualCamera virtualCamera;
     void Awake()
     {
         if (instance == null)
         {
             instance = this;
         }
+    }
+    void Start()
+    {
+        EventManager.instance.OnObjectInteract += IncrementMessedUp;
+        EventManager.instance.OnSecondMessedUp += SpawnParent;
+        listSpawner = GameObject.FindGameObjectsWithTag("Spawner");
+        objectiveText.text = "0 From " + totalObjective;
+        TextObjective();
+    }
+    void OnDisable()
+    {
+        EventManager.instance.OnObjectInteract -= IncrementMessedUp;
+        EventManager.instance.OnSecondMessedUp -= SpawnParent;
     }
     public void IncrementMessedUp()
     {
@@ -67,4 +71,21 @@ public class GameManager : MonoBehaviour
         }
         return null;
     }
+
+    public void TextObjective()
+    {
+        StartCoroutine(ObjectiveAnimation());
+    }
+
+    public IEnumerator ObjectiveAnimation()
+    {
+        yield return new WaitForSeconds(1f);
+        float duration = 1f;
+        objectiveGameObject.DOFade(1, duration);
+        yield return new WaitForSeconds(2f + duration);
+        objectiveGameObject.DOFade(0, duration);
+        yield return new WaitForSeconds(1f);
+        HUDGameObject.DOFade(1, duration);
+        objectiveGameObject.gameObject.SetActive(false);
+    } 
 }
