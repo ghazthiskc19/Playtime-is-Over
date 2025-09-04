@@ -11,12 +11,12 @@ public class HamburgerMenu : MonoBehaviour
     {
         StartCoroutine(OnHamburgerClick());
     }
-    
+
     private IEnumerator OnHamburgerClick()
     {
         hamMenuPanel.SetActive(true);
         Image ham = hamMenuPanel.GetComponent<Image>();
-        ham.DOFade(1, 0.5f);
+        ham.DOFade(0.5f, 0.5f);
         yield return new WaitForSeconds(.3f);
         bgMenu.DOFade(1, 0.5f);
         EventManager.instance.WhenPausedGame(true);

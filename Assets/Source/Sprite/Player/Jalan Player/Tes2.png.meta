@@ -1,37 +1,91 @@
 fileFormatVersion: 2
-guid: 1a4f7a4f6a5aa784e92ea15014273dfa
+guid: e4c5f4b4bbb12374cb3f1f54e0dec184
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7833313978407284588
-    second: IMG_1289_0
+      213: 2148426927702826591
+    second: Tes2_0
   - first:
-      213: 8494321408813966231
-    second: IMG_1289_1
+      213: 9216942874040564896
+    second: Tes2_1
   - first:
-      213: 8861669312052383647
-    second: IMG_1289_2
+      213: 2404098421035791310
+    second: Tes2_2
   - first:
-      213: -8487628336401808977
-    second: IMG_1289_3
+      213: 5851336257379601543
+    second: Tes2_3
   - first:
-      213: 6011059522137511586
-    second: IMG_1289_4
+      213: -6801322542021232432
+    second: Tes2_4
   - first:
-      213: 3023160136715084702
-    second: IMG_1289_5
+      213: 1737078575623852325
+    second: Tes2_5
   - first:
-      213: -423134851744939755
-    second: IMG_1289_6
+      213: -870458555331468761
+    second: Tes2_6
   - first:
-      213: 7130863058728353809
-    second: IMG_1289_7
+      213: 711341925983064255
+    second: Tes2_7
   - first:
-      213: -1385176718973877403
-    second: IMG_1289_8
+      213: -6528645371606002256
+    second: Tes2_8
   - first:
-      213: 5247250645908800641
-    second: IMG_1289_9
+      213: -8033427078918187448
+    second: Tes2_9
+  - first:
+      213: 3574252238185726449
+    second: Tes2_10
+  - first:
+      213: 2463018791684923318
+    second: Tes2_11
+  - first:
+      213: 8140985516158014332
+    second: Tes2_12
+  - first:
+      213: 6076148498420569100
+    second: Tes2_13
+  - first:
+      213: -759221495415291244
+    second: Tes2_14
+  - first:
+      213: 8131470115948840325
+    second: Tes2_15
+  - first:
+      213: -8723853588430164437
+    second: Tes2_16
+  - first:
+      213: -6551389491040302003
+    second: Tes2_17
+  - first:
+      213: -6871702537502531607
+    second: Tes2_18
+  - first:
+      213: 1637406925366191714
+    second: Tes2_19
+  - first:
+      213: 3637344781376332440
+    second: Tes2_20
+  - first:
+      213: 3181876756283511694
+    second: Tes2_21
+  - first:
+      213: 7491564255575169088
+    second: Tes2_22
+  - first:
+      213: 4808597641255300571
+    second: Tes2_23
+  - first:
+      213: 5173835921929709289
+    second: Tes2_24
+  - first:
+      213: 2171497755071614792
+    second: Tes2_25
+  - first:
+      213: -2176171603474354156
+    second: Tes2_26
+  - first:
+      213: 2966067045361554616
+    second: Tes2_27
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +132,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,221 +181,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_1289_0
+      name: Tes2_0
       rect:
         serializedVersion: 2
-        x: 89
-        y: 652
-        width: 324
-        height: 381
+        x: 0
+        y: 640
+        width: 426
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c6f61198f8585bc60800000000000000
-      internalID: 7833313978407284588
+      spriteID: 87011ad8c2d3c50409589e14e1681a7a
+      internalID: -1267609414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_1289_1
+      name: Tes2_1
       rect:
         serializedVersion: 2
-        x: 575
-        y: 628
-        width: 228
-        height: 391
+        x: 426
+        y: 640
+        width: 426
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7932a540154e1e570800000000000000
-      internalID: 8494321408813966231
+      spriteID: cced55512d5b18847922ed386fb2ad8c
+      internalID: -1577217701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_1289_2
+      name: Tes2_2
       rect:
         serializedVersion: 2
-        x: 920
-        y: 656
-        width: 265
-        height: 361
+        x: 852
+        y: 640
+        width: 426
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f9fccd5c949fafa70800000000000000
-      internalID: 8861669312052383647
+      spriteID: 186459ad6b123ca4099cb8f461ea3f34
+      internalID: 575791925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_1289_3
+      name: Tes2_3
       rect:
         serializedVersion: 2
-        x: 296
-        y: 648
-        width: 11
-        height: 6
+        x: 0
+        y: 0
+        width: 426
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fa10b375ff2e53a80800000000000000
-      internalID: -8487628336401808977
+      spriteID: da7b19c70ac2f5e42a5a6e087026cdf7
+      internalID: 1864616460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_1289_4
+      name: Tes2_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 51
-        width: 6
-        height: 7
+        x: 426
+        y: 0
+        width: 426
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2a65cb499c29b6350800000000000000
-      internalID: 6011059522137511586
+      spriteID: 47bce252900b3244cba178dbfe05a7a6
+      internalID: -1857484322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_1289_5
+      name: Tes2_5
       rect:
         serializedVersion: 2
-        x: 74
-        y: 22
-        width: 302
-        height: 365
+        x: 852
+        y: 0
+        width: 426
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e932600802c64f920800000000000000
-      internalID: 3023160136715084702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_1289_6
-      rect:
-        serializedVersion: 2
-        x: 467
-        y: 34
-        width: 263
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 511c7ad1819b02af0800000000000000
-      internalID: -423134851744939755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_1289_7
-      rect:
-        serializedVersion: 2
-        x: 914
-        y: 16
-        width: 229
-        height: 391
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1108575cb2ae5f260800000000000000
-      internalID: 7130863058728353809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_1289_8
-      rect:
-        serializedVersion: 2
-        x: 370
-        y: 25
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 563cb62fc1dd6cce0800000000000000
-      internalID: -1385176718973877403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_1289_9
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 16
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 18445dc49aaf1d840800000000000000
-      internalID: 5247250645908800641
+      spriteID: 91118aac4a2e9c44ab65604ba3cf9093
+      internalID: -1844649391
       vertices: []
       indices: 
       edges: []
@@ -350,7 +316,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6eafd5b64054b0145868cbde5271d540
     internalID: 0
     vertices: []
     indices: 
@@ -359,7 +325,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tes2_0: -1267609414
+      Tes2_1: -1577217701
+      Tes2_2: 575791925
+      Tes2_3: 1864616460
+      Tes2_4: -1857484322
+      Tes2_5: -1844649391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -13,7 +13,6 @@ public class AudioManager : MonoBehaviour
     public AudioClip[] bgmClips;
     private void Awake()
     {
-        // Singleton pattern
         if (instance == null)
         {
             instance = this;

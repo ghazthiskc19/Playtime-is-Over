@@ -11,14 +11,11 @@ public class TextScriptTutorial : MonoBehaviour
     public float typingSpeed = 0.05f;
     public bool isTutorialDone;
     [SerializeField] private bool _isTyping;
-    private Button button;
     private Coroutine typingCoroutine;
 
     void Start()
     {
-        button = GetComponent<Button>();
         idxCounter = 0;
-        button.onClick.AddListener(NextText);
         isTutorialDone = false;
         NextText();
     }

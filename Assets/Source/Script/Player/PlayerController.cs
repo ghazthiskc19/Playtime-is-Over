@@ -1,7 +1,6 @@
-using System.Collections;
-using System.IO.Compression;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -18,6 +17,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _rb;
     private Animator animator;
     private bool _isPaused;
+    private bool staminaLocked;
+    public Image staminaBar;
+
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -45,31 +47,57 @@ public class PlayerController : MonoBehaviour
     {
         if (_isPaused) return;
         bool isSprintPressed = sprintAction.action.IsPressed();
-        if (isSprintPressed)
-        {
-            if (_isCharging)
-            {
-                _isSprint = false;
-            }
-            else
-            {
-                _isSprint = true;
-            }
 
+        if (staminaTimeCounter <= 5f)
+        {
+            _isSprint = false;
+            staminaLocked = true;
+            _isCharging = false;
         }
         else
         {
-            if (staminaTimeCounter == chargingTime)
+            if (staminaTimeCounter >= staminaTime * 0.5f)
             {
-                _isCharging = false;
-                return;
+                staminaLocked = false;
             }
-            _isSprint = false;
-            if (!_isCharging) StartCoroutine(StartCharging());
+
+            if (isSprintPressed && !staminaLocked)
+            {
+                if (_isCharging)
+                {
+                    _isSprint = false;
+                }
+                else
+                {
+                    _isSprint = true;
+                }
+            }
+            else
+            {
+                if (!isSprintPressed && staminaTimeCounter < staminaTime * 0.5f)
+                {
+                    staminaLocked = true;
+                }
+                _isSprint = false;
+                _isCharging = false;
+            }
         }
 
+        if (staminaBar != null)
+        {
+            staminaBar.fillAmount = staminaTimeCounter / staminaTime;
+            if (staminaTimeCounter <= staminaTime * 0.5f)
+            {
+                staminaBar.color = new Color(0.5f, 0.5f, 0.5f); 
+            }
+            else
+            {
+                staminaBar.color = Color.white;
+            }
+        }
         animator.SetFloat("X-Axis", _rb.linearVelocityX);
         animator.SetFloat("Y-Axis", _rb.linearVelocityY);
+        animator.SetBool("IsRunning", _isSprint);
     }
 
     private void FixedUpdate()
@@ -88,17 +116,13 @@ public class PlayerController : MonoBehaviour
 
     public void OnMove(InputValue value)
     {
+        if (_isPaused) return;
         _moveInput = value.Get<Vector2>().normalized;
-    }
-
-    public IEnumerator StartCharging()
-    {
-        yield return new WaitForSeconds(chargingTime);
-        _isCharging = false;
     }
 
     public void OnInteract(InputValue input)
     {
+        if (_isPaused) return;
         if (input.isPressed)
         {
             _isInteracable = true;

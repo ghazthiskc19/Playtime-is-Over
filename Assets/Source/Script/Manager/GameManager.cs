@@ -1,5 +1,7 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+
 public class GameManager : MonoBehaviour
 {
 
@@ -38,13 +40,13 @@ public class GameManager : MonoBehaviour
             return;
         }
         if (messedUpCount % 2 == 1)
-            {
-                EventManager.instance.WhenFirstMessedUp();
-            }
-            else if (messedUpCount % 2 == 0)
-            {
-                EventManager.instance.WhenSecondMessedUp();
-            }
+        {
+            EventManager.instance.WhenFirstMessedUp();
+        }
+        else if (messedUpCount % 2 == 0)
+        {
+            EventManager.instance.WhenSecondMessedUp();
+        }
     }
 
     public void SpawnParent()

@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: 83a6446241f479540b2bd103fd45e24c
+guid: b13bf8619b8bd9f4fbd3f60efeb6f156
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8775430380007152060
-    second: IMG_1280_0
+      213: 1716303498744262829
+    second: energy bar_0
   - first:
-      213: 8125614164953473311
-    second: IMG_1280_1
-  - first:
-      213: 6090793471356389002
-    second: IMG_1280_2
-  - first:
-      213: 6921600798315545402
-    second: IMG_1280_3
-  - first:
-      213: 5903002657340345509
-    second: IMG_1280_4
+      213: -4812008908974547631
+    second: energy bar_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,45 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_1280_1
+      name: energy bar_0
       rect:
         serializedVersion: 2
-        x: 188
-        y: 338
-        width: 372
-        height: 756
+        x: 159
+        y: 343
+        width: 378
+        height: 69
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f112feb180bf3c070800000000000000
-      internalID: 8125614164953473311
+      spriteID: da0796150f881d710800000000000000
+      internalID: 1716303498744262829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_1280_2
+      name: energy bar_1
       rect:
         serializedVersion: 2
-        x: 581
-        y: 351
-        width: 360
-        height: 711
+        x: 142
+        y: 102
+        width: 432
+        height: 104
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a86477c4468d68450800000000000000
-      internalID: 6090793471356389002
+      spriteID: 15d9e84746f483db0800000000000000
+      internalID: -4812008908974547631
       vertices: []
       indices: 
       edges: []
@@ -159,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f4f5ec28eb6b2e544b49233f90c16e2f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -169,11 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_1280_0: -8775430380007152060
-      IMG_1280_1: 8125614164953473311
-      IMG_1280_2: 6090793471356389002
-      IMG_1280_3: 6921600798315545402
-      IMG_1280_4: 5903002657340345509
+      energy bar_0: 1716303498744262829
+      energy bar_1: -4812008908974547631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

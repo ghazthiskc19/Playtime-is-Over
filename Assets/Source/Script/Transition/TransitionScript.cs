@@ -46,7 +46,6 @@ public class TransitionScript : MonoBehaviour
 
     public IEnumerator OnTransitionSceneOutAndLoad(string sceneName)
     {
-        // opsional kalau pause game pake timeScale = 0;
         Time.timeScale = 1f;
         panelOut.SetActive(true);
         SpriteRenderer sr = panelOut.GetComponent<SpriteRenderer>();
@@ -71,7 +70,6 @@ public class TransitionScript : MonoBehaviour
             sr.DOFade(1, 0);
         });
 
-        // hide panel out
         panelOut.SetActive(false);
         SpriteRenderer _sr = panelOut.GetComponent<SpriteRenderer>();
         _sr.DOFade(0, 0);

@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: 83a6446241f479540b2bd103fd45e24c
+guid: b16e2d86fb2aa9546b01f1133ec53403
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8775430380007152060
-    second: IMG_1280_0
+      213: 4055513628883374047
+    second: Lari3_0
   - first:
-      213: 8125614164953473311
-    second: IMG_1280_1
+      213: 1364727448472924079
+    second: Lari3_1
   - first:
-      213: 6090793471356389002
-    second: IMG_1280_2
+      213: 6670630310543660949
+    second: Lari3_2
   - first:
-      213: 6921600798315545402
-    second: IMG_1280_3
-  - first:
-      213: 5903002657340345509
-    second: IMG_1280_4
+      213: 2900603956821610211
+    second: Lari3_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,45 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_1280_1
+      name: Lari3_0
       rect:
         serializedVersion: 2
-        x: 188
-        y: 338
-        width: 372
-        height: 756
+        x: 0
+        y: 624
+        width: 640
+        height: 640
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f112feb180bf3c070800000000000000
-      internalID: 8125614164953473311
+      spriteID: 51a1e17689000454db31d8832f9d8433
+      internalID: 892844634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_1280_2
+      name: Lari3_1
       rect:
         serializedVersion: 2
-        x: 581
-        y: 351
-        width: 360
-        height: 711
+        x: 640
+        y: 624
+        width: 640
+        height: 640
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a86477c4468d68450800000000000000
-      internalID: 6090793471356389002
+      spriteID: bb3fef00a7c55d8479adf0a308780f9b
+      internalID: -221813666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lari3_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc327303710f34b4db882d19224d2e16
+      internalID: 1134069191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lari3_3
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1666b055fcd297342971e46e58c471bf
+      internalID: 156783373
       vertices: []
       indices: 
       edges: []
@@ -159,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f4f5ec28eb6b2e544b49233f90c16e2f
+    spriteID: 73fb0e75b0668154d8d409192e70018d
     internalID: 0
     vertices: []
     indices: 
@@ -169,11 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_1280_0: -8775430380007152060
-      IMG_1280_1: 8125614164953473311
-      IMG_1280_2: 6090793471356389002
-      IMG_1280_3: 6921600798315545402
-      IMG_1280_4: 5903002657340345509
+      Lari3_0: 892844634
+      Lari3_1: -221813666
+      Lari3_2: 1134069191
+      Lari3_3: 156783373
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

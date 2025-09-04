@@ -1,28 +1,13 @@
 fileFormatVersion: 2
-guid: 774cf1ee9b58873479f46bd4877eb693
+guid: b1587bf70779c3e4992c2f695962efe7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3301766840646279036
-    second: IMG_1288_0
+      213: 8619859479441469146
+    second: mom-animation_0
   - first:
-      213: 246458810437085688
-    second: IMG_1288_1
-  - first:
-      213: -1865881697335553982
-    second: IMG_1288_2
-  - first:
-      213: -6842562217720933361
-    second: IMG_1288_3
-  - first:
-      213: 1230966732032453613
-    second: IMG_1288_4
-  - first:
-      213: -3474492072233554659
-    second: IMG_1288_5
-  - first:
-      213: -4706281919802562795
-    second: IMG_1288_6
+      213: -7417725119036741160
+    second: mom-animation_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,133 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_1288_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 640
-        width: 426
-        height: 640
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec0c00a710dc17146b250133ebccc9fd
-      internalID: 175039015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_1288_1
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 640
-        width: 426
-        height: 640
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f264e278bda508d4287a7b6744b625b3
-      internalID: 581744598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_1288_2
-      rect:
-        serializedVersion: 2
-        x: 852
-        y: 640
-        width: 426
-        height: 640
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df297909f51308444bd6010886c07c7f
-      internalID: 869626074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_1288_3
+      name: mom-animation_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 426
-        height: 640
+        width: 640
+        height: 1280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ff1f3cb368ef0624895d7e4fef564211
-      internalID: -1213039829
+      spriteID: ade64edc684ef9770800000000000000
+      internalID: 8619859479441469146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_1288_4
+      name: mom-animation_1
       rect:
         serializedVersion: 2
-        x: 426
+        x: 640
         y: 0
-        width: 426
-        height: 640
+        width: 640
+        height: 1280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 33e46e59041041348840fe5cf363d681
-      internalID: -1228912200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_1288_5
-      rect:
-        serializedVersion: 2
-        x: 852
-        y: 0
-        width: 426
-        height: 640
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 815df4acb089a26478366b30191400d0
-      internalID: 73166017
+      spriteID: 8d9a2561e42fe0990800000000000000
+      internalID: -7417725119036741160
       vertices: []
       indices: 
       edges: []
@@ -253,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7ca350c85f2d122418dcd8c7dd9c79ab
+    spriteID: 866cf3f5a95616a4b9fa97dc46a250bf
     internalID: 0
     vertices: []
     indices: 
@@ -263,12 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_1288_0: 175039015
-      IMG_1288_1: 581744598
-      IMG_1288_2: 869626074
-      IMG_1288_3: -1213039829
-      IMG_1288_4: -1228912200
-      IMG_1288_5: 73166017
+      mom-animation_0: 8619859479441469146
+      mom-animation_1: -7417725119036741160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
