@@ -94,14 +94,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a92d6e268fc73a24ab88cca1e5d48d4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBeforeLeave: 15
+  timeBeforeLeave: 2
   movementSpeed: 3
   chaseTarget: {fileID: 0}
   _firstPosition: {x: 0, y: 0, z: 0}
   _isChasing: 0
   _isReturning: 0
   chaseTimer: 0
-  timerEnemyText: {fileID: 0}
+  hasPlayedChaseBGM: 0
+  hasPlayedInGameBGM: 0
 --- !u!212 &6407609720101912375
 SpriteRenderer:
   m_ObjectHideFlags: 0

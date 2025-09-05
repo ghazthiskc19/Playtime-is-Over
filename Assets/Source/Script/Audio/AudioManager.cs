@@ -20,6 +20,12 @@ public class AudioManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+
+            for (int i = 0; i < sfxClips.Length; i++)
+            {
+                if (!sfxById.ContainsKey(i))
+                    sfxById.Add(i, sfxClips[i]);
+            }
         }
         else
         {
@@ -34,7 +40,7 @@ public class AudioManager : MonoBehaviour
         bgmSource.volume = musicVol;
         sfxSource.volume = sfxVol;
     }
-        public void PlaySFXById(int id)
+    public void PlaySFXById(int id)
     {
         if (sfxById.ContainsKey(id))
         {
@@ -64,18 +70,6 @@ public class AudioManager : MonoBehaviour
     {
         bgmSource.Stop();
     }
-    // public void PlaySFX(string name)
-    // {
-    //     AudioClip clip = FindClip(sfxClips, name);
-    //     if (clip != null)
-    //     {
-    //         sfxSource.PlayOneShot(clip);
-    //     }
-    //     else
-    //     {
-    //         Debug.LogWarning("SFX not found: " + name);
-    //     }
-    // }
     public void PlaySFX(string name, bool preventOverlap = false)
     {
         AudioClip clip = FindClip(sfxClips, name);
