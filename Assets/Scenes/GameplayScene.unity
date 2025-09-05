@@ -29745,7 +29745,7 @@ GameObject:
   - component: {fileID: 1657573705}
   - component: {fileID: 1657573704}
   - component: {fileID: 1657573703}
-  - component: {fileID: 1657573702}
+  - component: {fileID: 1657573706}
   m_Layer: 0
   m_Name: EXIT
   m_TagString: Untagged
@@ -29772,19 +29772,6 @@ RectTransform:
   m_AnchoredPosition: {x: -6.7, y: -172}
   m_SizeDelta: {x: 294.77, y: 132.25}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1657573702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657573700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b0980c567abfc347b1928f1cca0acdb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetPanel: {fileID: 1111972223}
 --- !u!114 &1657573703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29829,9 +29816,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1657573702}
-        m_TargetAssemblyTypeName: FadeOutAnimation, Assembly-CSharp
-        m_MethodName: targetFadeOutAnimation
+      - m_Target: {fileID: 1657573706}
+        m_TargetAssemblyTypeName: FadeAnimation, Assembly-CSharp
+        m_MethodName: targetFadeInAnimation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -29879,6 +29866,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657573700}
   m_CullTransparentMesh: 1
+--- !u!114 &1657573706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657573700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3afd0714973d495459ad8e6639ec6b89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPanel: {fileID: 1316634139}
 --- !u!1 &1668968007
 GameObject:
   m_ObjectHideFlags: 0

@@ -69,7 +69,7 @@ public class AudioManager : MonoBehaviour
 
         if (clip != null)
         {
-            if (preventOverlap && sfxLocked) return; // kalau lagi ke-lock, skip
+            if (preventOverlap && sfxLocked) return;
 
             sfxSource.PlayOneShot(clip);
 
