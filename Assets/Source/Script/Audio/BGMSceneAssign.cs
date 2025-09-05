@@ -5,9 +5,8 @@ public class BGMSceneAssign : MonoBehaviour
 {
     private void Start()
     {
-        // AudioManager.instance.PlayBGM("beranda game");
+        AudioManager.instance.PlayBGM("beranda game");
         SceneManager.sceneLoaded += OnSceneLoaded;
-        AudioManager.instance.PlayBGM("In Game");
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
