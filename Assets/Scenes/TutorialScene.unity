@@ -1173,7 +1173,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'INTERACT WITH FLOWER VASE
 
-    BUT NOW WITH BED'
+    BUT NOT WITH BED'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b1a7506f3f1bfd4db7e5de4a1b1a327, type: 2}
   m_sharedMaterial: {fileID: -5494028413181941404, guid: 6b1a7506f3f1bfd4db7e5de4a1b1a327, type: 2}
@@ -18253,9 +18253,11 @@ MonoBehaviour:
   interactText: {fileID: 1308972111}
   badEndingPanel: {fileID: 0}
   badEndingText: {fileID: 0}
+  badEndingImage: {fileID: 0}
   badEndingBtn: {fileID: 0}
   trueEndingPanel: {fileID: 0}
   trueEndingText: {fileID: 0}
+  trueEndingImage: {fileID: 0}
   trueEndingBtn: {fileID: 0}
   dangerSign: {fileID: 0}
   offset: {x: 0, y: 3.5, z: 0}

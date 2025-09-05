@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f07815754d3f44147aaa9e703918fd89
+guid: 6bce31ef456b7c6409c801aeff7cb9c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3205401497963603702
-    second: Settingclick_0
+      213: 6959302527311757296
+    second: No_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Settingclick_0
+      name: No_0
       rect:
         serializedVersion: 2
-        x: 299
-        y: 520
-        width: 603
-        height: 327
+        x: 394
+        y: 526
+        width: 508
+        height: 255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f620a0fdafdb7c20800000000000000
-      internalID: 3205401497963603702
+      spriteID: 0ff35e0d6c8649060800000000000000
+      internalID: 6959302527311757296
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      No_0: 6959302527311757296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

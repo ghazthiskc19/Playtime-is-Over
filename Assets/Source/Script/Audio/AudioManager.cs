@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using System.Collections;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
@@ -11,6 +11,7 @@ public class AudioManager : MonoBehaviour
     [Header("Audio Clips")]
     public AudioClip[] sfxClips;
     public AudioClip[] bgmClips;
+    [SerializeField] private bool sfxLocked = false;
     private void Awake()
     {
         if (instance == null)
@@ -50,17 +51,42 @@ public class AudioManager : MonoBehaviour
     {
         bgmSource.Stop();
     }
-    public void PlaySFX(string name)
+    // public void PlaySFX(string name)
+    // {
+    //     AudioClip clip = FindClip(sfxClips, name);
+    //     if (clip != null)
+    //     {
+    //         sfxSource.PlayOneShot(clip);
+    //     }
+    //     else
+    //     {
+    //         Debug.LogWarning("SFX not found: " + name);
+    //     }
+    // }
+    public void PlaySFX(string name, bool preventOverlap = false)
     {
         AudioClip clip = FindClip(sfxClips, name);
+
         if (clip != null)
         {
+            if (preventOverlap && sfxLocked) return; // kalau lagi ke-lock, skip
+
             sfxSource.PlayOneShot(clip);
+
+            if (preventOverlap)
+                StartCoroutine(SFXCooldown(clip.length));
         }
         else
         {
             Debug.LogWarning("SFX not found: " + name);
         }
+    }
+
+    private IEnumerator SFXCooldown(float duration)
+    {
+        sfxLocked = true;
+        yield return new WaitForSeconds(duration);
+        sfxLocked = false;
     }
     private AudioClip FindClip(AudioClip[] clips, string name)
     {
