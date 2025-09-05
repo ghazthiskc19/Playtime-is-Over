@@ -15,6 +15,7 @@ public class InteracableObject : MonoBehaviour
     {
         animator.SetTrigger("TriggerAnim");
         hasInteracted = true;
+        AudioManager.instance.PlaySFXById(id);
     }
 
 }

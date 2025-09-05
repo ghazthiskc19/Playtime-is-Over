@@ -18,10 +18,10 @@ public class EnemyMovement : MonoBehaviour
     private Animator animator;
     private bool _isPaused;
     CameraVisibilityChecker checker;
+    [Header("Audio Tracker")]
+    [SerializeField] private bool hasPlayedChaseBGM = false;
+    [SerializeField] private bool hasPlayedInGameBGM = false;
 
-    [Header("UI or HUD Related To Enemy")]
-    public TMP_Text timerEnemyText;
-    
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -65,6 +65,13 @@ public class EnemyMovement : MonoBehaviour
         if (_isChasing)
         {
             EventManager.instance.WhenChasingStateChanged(true);
+            if (!hasPlayedChaseBGM)
+            {
+                AudioManager.instance.PlayBGM("anak dikejar");
+                hasPlayedChaseBGM = true;
+                hasPlayedInGameBGM = false;
+            }
+
             StartCoroutine(ChasePlayer());
             chaseTimer -= Time.deltaTime;
             if (chaseTimer <= 0)
@@ -76,6 +83,12 @@ public class EnemyMovement : MonoBehaviour
         }
         else if (_isReturning)
         {
+            if (!hasPlayedInGameBGM)
+            {
+                AudioManager.instance.PlayBGM("In Game");
+                hasPlayedInGameBGM = true;
+                hasPlayedChaseBGM = false;
+            }
             ReturnToSpawn();
         }
 

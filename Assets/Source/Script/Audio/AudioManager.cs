@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
@@ -12,6 +13,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip[] sfxClips;
     public AudioClip[] bgmClips;
     [SerializeField] private bool sfxLocked = false;
+    private Dictionary<int, AudioClip> sfxById = new();
     private void Awake()
     {
         if (instance == null)
@@ -31,6 +33,17 @@ public class AudioManager : MonoBehaviour
 
         bgmSource.volume = musicVol;
         sfxSource.volume = sfxVol;
+    }
+        public void PlaySFXById(int id)
+    {
+        if (sfxById.ContainsKey(id))
+        {
+            sfxSource.PlayOneShot(sfxById[id]);
+        }
+        else
+        {
+            Debug.LogWarning($"SFX with id {id} not found!");
+        }
     }
     public void PlayBGM(string name)
     {
