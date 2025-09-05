@@ -1,28 +1,37 @@
 fileFormatVersion: 2
-guid: e61d2fe548bb56d409e2f01a91d9ae02
+guid: 96fc3830861a0734c84505358901ecda
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1847919079022750944
-    second: Lari1_0
+      213: 3910501142841951780
+    second: IMG_1310_0
   - first:
-      213: -2243840610049755052
-    second: Lari1_1
+      213: 1427559133202221104
+    second: IMG_1310_1
   - first:
-      213: 8759059104864687573
-    second: Lari1_2
+      213: -233223149006361432
+    second: IMG_1310_2
   - first:
-      213: -7116046690197941809
-    second: Lari1_3
+      213: -3862465560451797074
+    second: IMG_1310_3
   - first:
-      213: 4408364348733100704
-    second: Lari1_4
+      213: 6506417335647962421
+    second: IMG_1310_4
   - first:
-      213: 4453642741101140287
-    second: Lari1_5
+      213: 5299594602096768048
+    second: IMG_1310_5
   - first:
-      213: -2251468515612452039
-    second: Lari1_6
+      213: -2285645340319025173
+    second: IMG_1310_6
+  - first:
+      213: 8520359865655730599
+    second: IMG_1310_7
+  - first:
+      213: 2817696819200426276
+    second: IMG_1310_8
+  - first:
+      213: 5778092453545077432
+    second: IMG_1310_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,133 +127,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lari1_0
+      name: IMG_1310_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 640
-        width: 426
-        height: 640
+        x: 254
+        y: 338
+        width: 372
+        height: 756
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cf0d17d61e279824db2ef7896df77297
-      internalID: -62272206
+      spriteID: 8ace31a18cc63ccf0800000000000000
+      internalID: -233223149006361432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lari1_1
+      name: IMG_1310_5
       rect:
         serializedVersion: 2
-        x: 426
-        y: 640
-        width: 426
-        height: 640
+        x: 643
+        y: 331
+        width: 360
+        height: 756
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4a798ec5e440acf43a2a4917284386e9
-      internalID: 1820334143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lari1_2
-      rect:
-        serializedVersion: 2
-        x: 852
-        y: 627
-        width: 426
-        height: 640
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de39647f0b6b29f4cb7b26c442ea6915
-      internalID: -915731039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lari1_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 426
-        height: 640
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: adb78f032f7b50d4890775a9d4b30463
-      internalID: 903634645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lari1_4
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 0
-        width: 426
-        height: 640
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c63b018deb72a6419cdce2ff8a82fee
-      internalID: 1079521483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lari1_5
-      rect:
-        serializedVersion: 2
-        x: 852
-        y: 0
-        width: 426
-        height: 626
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a864cb85d23b064db15b47d2b9446a4
-      internalID: 1661840104
+      spriteID: 0343e8f4631fb8940800000000000000
+      internalID: 5299594602096768048
       vertices: []
       indices: 
       edges: []
@@ -253,7 +174,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 99bcc54ec34d68f4cb92cd2e3c7eeffd
+    spriteID: db5fec3563365e84489ea9b1451842d7
     internalID: 0
     vertices: []
     indices: 
@@ -263,12 +184,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lari1_0: -62272206
-      Lari1_1: 1820334143
-      Lari1_2: -915731039
-      Lari1_3: 903634645
-      Lari1_4: 1079521483
-      Lari1_5: 1661840104
+      IMG_1310_0: 3910501142841951780
+      IMG_1310_1: 1427559133202221104
+      IMG_1310_2: -233223149006361432
+      IMG_1310_3: -3862465560451797074
+      IMG_1310_4: 6506417335647962421
+      IMG_1310_5: 5299594602096768048
+      IMG_1310_6: -2285645340319025173
+      IMG_1310_7: 8520359865655730599
+      IMG_1310_8: 2817696819200426276
+      IMG_1310_9: 5778092453545077432
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

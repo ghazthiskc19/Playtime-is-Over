@@ -36,7 +36,7 @@ public class PlayerInteract : MonoBehaviour
             if (playerController._isInteracable)
             {
                 interacableObject.ApplyInteracable();
-                EventManager.instance.WhenObjectInteract();
+                EventManager.instance.WhenObjectInteract(1);
                 playerController._isInteracable = false;
                 EventManager.instance.WhenInteractAreaChanged(false, "");
             }

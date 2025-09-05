@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
         EventManager.instance.OnObjectInteract -= IncrementMessedUp;
         EventManager.instance.OnSecondMessedUp -= SpawnParent;
     }
-    public void IncrementMessedUp()
+    public void IncrementMessedUp(int idx)
     {
         StartCoroutine(IncrementMessedUpCoroutine());
     }

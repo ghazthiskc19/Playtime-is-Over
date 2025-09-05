@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
             staminaBar.fillAmount = staminaTimeCounter / staminaTime;
             if (staminaTimeCounter <= staminaTime * 0.5f)
             {
-                staminaBar.color = new Color(0.5f, 0.5f, 0.5f); 
+                staminaBar.color = new Color(0.5f, 0.5f, 0.5f);
             }
             else
             {
@@ -136,5 +136,9 @@ public class PlayerController : MonoBehaviour
     public void OnPlayerWin()
     {
         enabled = false;
-    }   
+    }
+    public void OnPlayerStep()
+    {
+        AudioManager.instance.PlaySFX("one step");
+    }
 }

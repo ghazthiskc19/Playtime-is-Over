@@ -4,7 +4,7 @@ using UnityEngine;
 public class EventManager : MonoBehaviour
 {
     public event Action<bool> OnPausedGame;
-    public event Action OnObjectInteract;
+    public event Action<int> OnObjectInteract;
     public event Action OnFirstMessedUp;
     public event Action OnSecondMessedUp;
     public event Action OnPlayerChased;
@@ -25,9 +25,9 @@ public class EventManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    public void WhenObjectInteract()
+    public void WhenObjectInteract(int num)
     {
-        OnObjectInteract?.Invoke();
+        OnObjectInteract?.Invoke(num);
     }
 
     public void WhenFirstMessedUp()
